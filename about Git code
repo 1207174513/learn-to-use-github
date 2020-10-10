@@ -1,0 +1,33 @@
+1.上传信息
+
+git commit -m + 提交的描述		将暂存区的提交到仓库
+git config --global user.name + 用户名		设置用户名
+git config --global user.name + 邮箱	   设置用户名邮箱
+git config --list 查看设置
+
+2.新建仓库
+
+ls    查看当前文件
+pwd    查看当前目录
+mkdir + 文件夹名称    创建文件夹
+cd + 文件名    进入某个文件夹
+git init    新建隐藏文件，用于存储所有仓库信息
+
+3.向仓库中添加文件
+
+git status 	查看程序状态，是在工作区还是暂存区
+git add + 文件名 	将工作区提交到暂存区
+
+touch + 文件    创建文件（如".py"或".cpp"等文件）
+vi + 文件  进入修改文件的页面
+cat + 文件 查看文件内容
+git add + 文件 将所向文件添加的内容添加到暂存区域
+别忘了git commit -m + 提交的描述
+
+4.删除仓库的文件
+
+rm -rf + 文件
+rm + 文件      删除文件
+git rm + 文件       从暂存中删除
+git commit -m + 提交的描述 	操作提交
+
